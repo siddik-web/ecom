@@ -1,0 +1,19 @@
+{
+    "name": "siddik-web/ecom",
+    "description": "E-commerce Application using PHP OOP",
+    "type": "project",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "SiddikWeb\\Ecom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Siddiqur Rahman",
+            "email": "siddikcoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
