@@ -15,5 +15,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "stripe/stripe-php": "^7.104"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
 }
