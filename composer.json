@@ -1,24 +1,24 @@
 {
-    "name": "siddik-web/ecom",
-    "description": "E-commerce Application using PHP OOP",
-    "type": "project",
-    "license": "GPLv3",
-    "autoload": {
-        "psr-4": {
-            "SiddikWeb\\Ecom\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Md Siddiqur Rahman",
-            "email": "siddikcoder@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "stripe/stripe-php": "^7.104"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "*"
+  "name": "siddik-web/ecom",
+  "description": "E-commerce Application using PHP OOP",
+  "type": "project",
+  "license": "GPLv3",
+  "autoload": {
+    "psr-4": {
+      "Commerce\\App\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Md Siddiqur Rahman",
+      "email": "siddikcoder@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "stripe/stripe-php": "^7.104"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*"
+  }
 }
